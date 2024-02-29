@@ -1,9 +1,10 @@
 .carousel {
   display: flex;
   overflow: auto;
-  height: 70vh;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  height: 90vh;
   width: 100vw;
-align-items: center;
 }
 
 #carousel-item1,
