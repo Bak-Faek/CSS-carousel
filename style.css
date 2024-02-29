@@ -1,0 +1,17 @@
+
+.carousel {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    height: 50vh;
+    counter-increment: carousel-item;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    width: 100%;
+  }
+  
